@@ -8,7 +8,8 @@ def f1(zahl):
     L.reverse()
     print("Die Zahl %d binär: "%(z),L)
 
-zahl = 5
+zahl = 15
 f1(zahl)
 f1(~zahl)
 f1(~zahl+1)
+
